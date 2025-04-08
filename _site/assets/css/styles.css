@@ -1,0 +1,81 @@
+@font-face { font-family: "Jost"; font-style: normal; font-weight: normal; font-display: block; src: url(../fonts/Jost-400-Book.woff2) format("woff2"), url(../fonts/Jost-400-Book.woff) format("woff"), url(../fonts/Jost-400-Book.ttf) format("truetype"); }
+@font-face { font-family: "Jost"; font-style: normal; font-weight: bold; font-display: block; src: url(../fonts/Jost-700-Bold.woff2) format("woff2"), url(../fonts/Jost-700-Bold.woff) format("woff"), url(../fonts/Jost-700-Bold.ttf) format("truetype"); }
+@font-face { font-family: "Jost"; font-style: italic; font-weight: normal; font-display: block; src: url(../fonts/Jost-400-BookItalic.woff2) format("woff2"), url(../fonts/Jost-400-BookItalic.woff) format("woff"), url(../fonts/Jost-400-BookItalic.ttf) format("truetype"); }
+@font-face { font-family: "Jost"; font-style: italic; font-weight: bold; font-display: block; src: url(../fonts/Jost-700-BoldItalic.woff2) format("woff2"), url(../fonts/Jost-700-BoldItalic.woff2) format("woff2"), url(../fonts/Jost-700-BoldItalic.ttf) format("truetype"); }
+@font-face { font-family: "Drafting"; font-style: normal; font-weight: normal; font-display: block; src: url(../fonts/DraftingMono-Regular.woff2) format("woff2"), url(../fonts/DraftingMono-Regular.woff) format("woff"), url(../fonts/DraftingMono-Regular.ttf) format("truetype"); }
+@font-face { font-family: "Drafting"; font-style: normal; font-weight: bold; font-display: block; src: url(../fonts/DraftingMono-Bold.woff2) format("woff2"), url(../fonts/DraftingMono-Bold.woff) format("woff"), url(../fonts/DraftingMono-Bold.ttf) format("truetype"); }
+@font-face { font-family: "Drafting"; font-style: italic; font-weight: normal; font-display: block; src: url(../fonts/DraftingMono-Italic.woff2) format("woff2"), url(../fonts/DraftingMono-Italic.woff) format("woff"), url(../fonts/DraftingMono-Italic.ttf) format("truetype"); }
+@font-face { font-family: "Drafting"; font-style: italic; font-weight: bold; font-display: block; src: url(../fonts/DraftingMono-BoldItalic.woff2) format("woff2"), url(../fonts/DraftingMono-BoldItalic.woff) format("woff"), url(../fonts/DraftingMono-BoldItalic.ttf) format("truetype"); }
+html { color: #222; font-family: "Jost"; line-height: 1.5; max-width: 80ch; padding: 16px; }
+
+:is(h2, h3, h4, h5, h6) { margin-top: 1em; }
+
+footer { margin: 2em auto; }
+
+footer ul { align-items: left; display: flex; flex-wrap: wrap; gap: 1em; list-style-type: none; margin: 0; padding: 0; }
+
+footer ul li { margin-left: 0; }
+
+footer nav ul { justify-content: space-between; }
+
+.next { margin-left: auto; }
+
+footer hr { margin: 24px 0; }
+
+img { max-width: 100%; max-height: calc(0.6 * 80ch); }
+
+figure { display: flex; flex-direction: column; align-items: center; gap: 0.5em; margin: auto; }
+
+figure figcaption { max-width: 80%; font-size: 95%; }
+
+:is(ul, ol) { font-variant-numeric: tabular-nums; padding-left: 16px; }
+
+dt { font-weight: bold; }
+
+:is(ul, ol) li, dd { margin-left: 20px; }
+
+.posts-list { padding-top: 1em; }
+
+blockquote { border-left: 1px solid #222; font-style: italic; margin-left: 0; padding-left: 20px; }
+
+table { border-collapse: collapse; width: 100%; }
+
+:is(table, th, td) { border: 1px solid #222; }
+
+:is(th, td) { padding: 4px 8px; }
+
+hr { border-bottom: 1px; color: #222; margin: 0; }
+
+.footnotes { margin-top: 2em; }
+
+.footnotes ol li::marker { font-variant-position: super; }
+
+code { font-family: "Drafting"; font-size: 0.8em; padding: 0.3em; vertical-align: text-bottom; }
+
+pre { border-left: 1px solid #222; max-height: 400px; overflow: auto; padding: 20px; position: relative; }
+
+.highlight table td { padding: 5px; }
+
+.highlight table pre { margin: 0; }
+
+.highlight, .highlight .w { color: #444444; }
+
+.highlight .cp { color: #cc00a3; }
+
+.highlight .cs { color: #cc00a3; }
+
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1 { color: #ff0000; }
+
+.highlight .kc { color: #c34e00; }
+
+.highlight .kd { color: #0000ff; }
+
+.highlight .kr { color: #007575; }
+
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kt, .highlight .kv { color: #0000ff; }
+
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #009c00; }
+
+.highlight .sa { color: #0000ff; }
+
+.highlight .nb, .highlight .bp { color: #c34e00; }
